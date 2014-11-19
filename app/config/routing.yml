@@ -1,0 +1,5 @@
+ur_app:
+    resource: "@URAppBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
