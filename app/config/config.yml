@@ -4,7 +4,7 @@ imports:
 
 framework:
     #esi:             ~
-    #translator:      { fallback: "%locale%" }
+    translator:      ~
     secret:          "%secret%"
     router:
         resource: "%kernel.root_dir%/config/routing.yml"
@@ -84,3 +84,9 @@ braincrafted_bootstrap:
     jquery_path: %kernel.root_dir%/../vendor/components/jquery/jquery.js
     less_filter: less
     fonts_dir: %kernel.root_dir%/../web/fonts
+
+# FOSUserBundle Configuration
+fos_user:
+    db_driver: orm
+    firewall_name: main
+    user_class: UR\UserBundle\Entity\User
