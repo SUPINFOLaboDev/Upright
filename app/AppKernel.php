@@ -28,6 +28,7 @@ class AppKernel extends Kernel
             new FOS\RestBundle\FOSRestBundle(),
             new Nelmio\ApiDocBundle\NelmioApiDocBundle(),
             new Avocode\FormExtensionsBundle\AvocodeFormExtensionsBundle(),
+            new Ivory\CKEditorBundle\IvoryCKEditorBundle(),
 
             // Internal bundles
             new UR\AppBundle\URAppBundle(),
