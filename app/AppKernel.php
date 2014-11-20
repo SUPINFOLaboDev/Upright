@@ -27,6 +27,7 @@ class AppKernel extends Kernel
             new JMS\SerializerBundle\JMSSerializerBundle(),
             new FOS\RestBundle\FOSRestBundle(),
             new Nelmio\ApiDocBundle\NelmioApiDocBundle(),
+            new Avocode\FormExtensionsBundle\AvocodeFormExtensionsBundle(),
 
             // Internal bundles
             new UR\AppBundle\URAppBundle(),

@@ -20,13 +20,14 @@
         "incenteev/composer-parameter-handler": "~2.0",
         "braincrafted/bootstrap-bundle": "2.1.*",
         "twbs/bootstrap": "3.3.*",
-        "components/jquery": "2.1.*",
+        "components/jquery": "1.11.*",
         "jms/security-extra-bundle": "dev-master",
         "friendsofsymfony/user-bundle": "~2.0@dev",
         "friendsofsymfony/jsrouting-bundle": "~1.5",
         "jms/serializer-bundle": "~0.13",
         "friendsofsymfony/rest-bundle": "~1.4",
-        "nelmio/api-doc-bundle": "~2.7"
+        "nelmio/api-doc-bundle": "~2.7",
+        "avocode/form-extensions-bundle": "dev-master"
     },
     "require-dev": {
         "sensio/generator-bundle": "~2.3"

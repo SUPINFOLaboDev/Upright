@@ -34,7 +34,7 @@ assetic:
     debug:          "%kernel.debug%"
     use_controller: false
     write_to:       %kernel.root_dir%/../web/compiled/
-    bundles:        [ ]
+    bundles:        [ 'AvocodeFormExtensionsBundle' ]
     #java: /usr/bin/java
     filters:
         cssrewrite: ~
